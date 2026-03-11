@@ -1,0 +1,39 @@
+[1.646s] Invoking command in '/home/pranjal/robot_ws/argo-test/src/slam_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranjal/robot_ws/argo-test/build/slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranjal/robot_ws/argo-test/install/slam_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_pkg build --build-base /home/pranjal/robot_ws/argo-test/build/slam_pkg/build install --record /home/pranjal/robot_ws/argo-test/build/slam_pkg/install.log --single-version-externally-managed install_data
+[2.050s] running egg_info
+[2.050s] creating ../../build/slam_pkg/slam_pkg.egg-info
+[2.082s] writing ../../build/slam_pkg/slam_pkg.egg-info/PKG-INFO
+[2.083s] writing dependency_links to ../../build/slam_pkg/slam_pkg.egg-info/dependency_links.txt
+[2.084s] writing requirements to ../../build/slam_pkg/slam_pkg.egg-info/requires.txt
+[2.084s] writing top-level names to ../../build/slam_pkg/slam_pkg.egg-info/top_level.txt
+[2.084s] writing manifest file '../../build/slam_pkg/slam_pkg.egg-info/SOURCES.txt'
+[2.191s] reading manifest file '../../build/slam_pkg/slam_pkg.egg-info/SOURCES.txt'
+[2.192s] writing manifest file '../../build/slam_pkg/slam_pkg.egg-info/SOURCES.txt'
+[2.193s] running build
+[2.194s] running build_py
+[2.194s] creating /home/pranjal/robot_ws/argo-test/build/slam_pkg/build
+[2.194s] creating /home/pranjal/robot_ws/argo-test/build/slam_pkg/build/lib
+[2.195s] creating /home/pranjal/robot_ws/argo-test/build/slam_pkg/build/lib/slam_pkg
+[2.195s] copying slam_pkg/__init__.py -> /home/pranjal/robot_ws/argo-test/build/slam_pkg/build/lib/slam_pkg
+[2.195s] running install
+[2.224s] running install_lib
+[2.256s] creating /home/pranjal/robot_ws/argo-test/install/slam_pkg/lib/python3.12/site-packages/slam_pkg
+[2.256s] copying /home/pranjal/robot_ws/argo-test/build/slam_pkg/build/lib/slam_pkg/__init__.py -> /home/pranjal/robot_ws/argo-test/install/slam_pkg/lib/python3.12/site-packages/slam_pkg
+[2.258s] byte-compiling /home/pranjal/robot_ws/argo-test/install/slam_pkg/lib/python3.12/site-packages/slam_pkg/__init__.py to __init__.cpython-312.pyc
+[2.258s] running install_data
+[2.259s] creating /home/pranjal/robot_ws/argo-test/install/slam_pkg/share/ament_index
+[2.259s] creating /home/pranjal/robot_ws/argo-test/install/slam_pkg/share/ament_index/resource_index
+[2.259s] creating /home/pranjal/robot_ws/argo-test/install/slam_pkg/share/ament_index/resource_index/packages
+[2.259s] copying resource/slam_pkg -> /home/pranjal/robot_ws/argo-test/install/slam_pkg/share/ament_index/resource_index/packages
+[2.260s] copying package.xml -> /home/pranjal/robot_ws/argo-test/install/slam_pkg/share/slam_pkg
+[2.260s] creating /home/pranjal/robot_ws/argo-test/install/slam_pkg/share/slam_pkg/launch
+[2.261s] copying launch/slam_real.launch.py -> /home/pranjal/robot_ws/argo-test/install/slam_pkg/share/slam_pkg/launch
+[2.261s] copying launch/slam_sim.launch.py -> /home/pranjal/robot_ws/argo-test/install/slam_pkg/share/slam_pkg/launch
+[2.261s] copying launch/localization_launch.py -> /home/pranjal/robot_ws/argo-test/install/slam_pkg/share/slam_pkg/launch
+[2.262s] creating /home/pranjal/robot_ws/argo-test/install/slam_pkg/share/slam_pkg/config
+[2.262s] copying config/mapper_params_online_async.yaml -> /home/pranjal/robot_ws/argo-test/install/slam_pkg/share/slam_pkg/config
+[2.262s] copying config/mapper_params_localization.yaml -> /home/pranjal/robot_ws/argo-test/install/slam_pkg/share/slam_pkg/config
+[2.265s] running install_egg_info
+[2.314s] Copying ../../build/slam_pkg/slam_pkg.egg-info to /home/pranjal/robot_ws/argo-test/install/slam_pkg/lib/python3.12/site-packages/slam_pkg-1.0.0-py3.12.egg-info
+[2.317s] running install_scripts
+[2.563s] writing list of installed files to '/home/pranjal/robot_ws/argo-test/build/slam_pkg/install.log'
+[2.743s] Invoked command in '/home/pranjal/robot_ws/argo-test/src/slam_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranjal/robot_ws/argo-test/build/slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranjal/robot_ws/argo-test/install/slam_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_pkg build --build-base /home/pranjal/robot_ws/argo-test/build/slam_pkg/build install --record /home/pranjal/robot_ws/argo-test/build/slam_pkg/install.log --single-version-externally-managed install_data

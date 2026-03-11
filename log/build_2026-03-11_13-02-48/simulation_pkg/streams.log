@@ -1,0 +1,60 @@
+[1.804s] Invoking command in '/home/pranjal/robot_ws/argo-test/src/simulation_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranjal/robot_ws/argo-test/build/simulation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranjal/robot_ws/argo-test/install/simulation_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simulation_pkg build --build-base /home/pranjal/robot_ws/argo-test/build/simulation_pkg/build install --record /home/pranjal/robot_ws/argo-test/build/simulation_pkg/install.log --single-version-externally-managed install_data
+[2.468s] running egg_info
+[2.469s] creating ../../build/simulation_pkg/simulation_pkg.egg-info
+[2.533s] writing ../../build/simulation_pkg/simulation_pkg.egg-info/PKG-INFO
+[2.533s] writing dependency_links to ../../build/simulation_pkg/simulation_pkg.egg-info/dependency_links.txt
+[2.533s] writing requirements to ../../build/simulation_pkg/simulation_pkg.egg-info/requires.txt
+[2.533s] writing top-level names to ../../build/simulation_pkg/simulation_pkg.egg-info/top_level.txt
+[2.533s] writing manifest file '../../build/simulation_pkg/simulation_pkg.egg-info/SOURCES.txt'
+[2.749s] reading manifest file '../../build/simulation_pkg/simulation_pkg.egg-info/SOURCES.txt'
+[2.756s] writing manifest file '../../build/simulation_pkg/simulation_pkg.egg-info/SOURCES.txt'
+[2.756s] running build
+[2.756s] running build_py
+[2.756s] creating /home/pranjal/robot_ws/argo-test/build/simulation_pkg/build
+[2.759s] creating /home/pranjal/robot_ws/argo-test/build/simulation_pkg/build/lib
+[2.759s] creating /home/pranjal/robot_ws/argo-test/build/simulation_pkg/build/lib/simulation_pkg
+[2.759s] copying simulation_pkg/__init__.py -> /home/pranjal/robot_ws/argo-test/build/simulation_pkg/build/lib/simulation_pkg
+[2.759s] running install
+[2.805s] running install_lib
+[2.890s] creating /home/pranjal/robot_ws/argo-test/install/simulation_pkg/lib/python3.12/site-packages/simulation_pkg
+[2.890s] copying /home/pranjal/robot_ws/argo-test/build/simulation_pkg/build/lib/simulation_pkg/__init__.py -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/lib/python3.12/site-packages/simulation_pkg
+[2.894s] byte-compiling /home/pranjal/robot_ws/argo-test/install/simulation_pkg/lib/python3.12/site-packages/simulation_pkg/__init__.py to __init__.cpython-312.pyc
+[2.895s] running install_data
+[2.895s] creating /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/ament_index
+[2.895s] creating /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/ament_index/resource_index
+[2.895s] creating /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/ament_index/resource_index/packages
+[2.895s] copying resource/simulation_pkg -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/ament_index/resource_index/packages
+[2.895s] copying package.xml -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg
+[2.896s] creating /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/launch
+[2.896s] copying launch/gaz_sim_launch.py -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/launch
+[2.896s] copying launch/rsp_launch.py -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/launch
+[2.896s] creating /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/models
+[2.896s] copying models/right_wheel_link.STL -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/models
+[2.896s] copying models/base_link.STL -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/models
+[2.903s] copying models/left_wheel_link.STL -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/models
+[2.904s] copying models/lidar_link.STL -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/models
+[2.907s] copying models/front_caster_link.STL -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/models
+[2.907s] copying models/rear_caster_link.STL -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/models
+[2.907s] creating /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/description
+[2.907s] copying description/ros2_control.xacro -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/description
+[2.907s] copying description/gazebo_control.xacro -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/description
+[2.908s] copying description/lidar.xacro -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/description
+[2.908s] copying description/robot_core.xacro -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/description
+[2.909s] copying description/gazebo_references.xacro -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/description
+[2.909s] copying description/robot_urdf.xacro -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/description
+[2.909s] creating /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/worlds
+[2.909s] copying worlds/industrial-warehouse.sdf -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/worlds
+[2.909s] copying worlds/simple_sim_world.sdf -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/worlds
+[2.912s] copying worlds/sim_world.sdf -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/worlds
+[2.912s] creating /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/params
+[2.913s] copying params/ros_gz_bridge.yaml -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/params
+[2.913s] creating /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/config
+[2.913s] copying config/view_bot.rviz -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/config
+[2.913s] copying config/twist_mux.yaml -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/config
+[2.913s] copying config/sim_view.rviz -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/config
+[2.913s] copying config/robot_controllers.yaml -> /home/pranjal/robot_ws/argo-test/install/simulation_pkg/share/simulation_pkg/config
+[2.913s] running install_egg_info
+[2.965s] Copying ../../build/simulation_pkg/simulation_pkg.egg-info to /home/pranjal/robot_ws/argo-test/install/simulation_pkg/lib/python3.12/site-packages/simulation_pkg-1.0.0-py3.12.egg-info
+[2.966s] running install_scripts
+[3.517s] writing list of installed files to '/home/pranjal/robot_ws/argo-test/build/simulation_pkg/install.log'
+[3.693s] Invoked command in '/home/pranjal/robot_ws/argo-test/src/simulation_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pranjal/robot_ws/argo-test/build/simulation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranjal/robot_ws/argo-test/install/simulation_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simulation_pkg build --build-base /home/pranjal/robot_ws/argo-test/build/simulation_pkg/build install --record /home/pranjal/robot_ws/argo-test/build/simulation_pkg/install.log --single-version-externally-managed install_data

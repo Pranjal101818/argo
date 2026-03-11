@@ -320,17 +320,31 @@ void updateDisplay() {
 
 // ---------------- SERIAL COMMAND PARSER ----------------
 void parseSerial() {
-  if (Serial.available() > 0) {
+
+  while (Serial.available() > 0) {
+
     char cmd = Serial.read();
-    
-    // Check if it's one of our control keys
-    if (cmd == 'W' || cmd == 'A' || cmd == 'S' || cmd == 'D' || cmd == 'X') {
-      lastCommand = cmd;
+
+    if (cmd == 'W') {
+      lastCommand = 'W';
     }
-    
-    // Still support reset if needed
+    else if (cmd == 'S') {
+      lastCommand = 'S';
+    }
+    else if (cmd == 'A') {
+      lastCommand = 'A';
+    }
+    else if (cmd == 'D') {
+      lastCommand = 'D';
+    }
+    else if (cmd == 'X') {
+      lastCommand = 'X';
+    }
+
     if (cmd == 'r') {
-       posX = 0; posY = 0; theta = 0;
+      posX = 0;
+      posY = 0;
+      theta = 0;
     }
   }
 }
